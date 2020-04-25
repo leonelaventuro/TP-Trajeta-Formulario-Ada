@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    margin: auto;
+    background-color: #EBD0D3;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 4px rgb(172, 172, 172);
+    overflow: hidden;
+}
+
+img {
+    width: 400px;
+    margin: auto;
+    padding: 0px 80px;
+}
+
+
+.titulo {
+    font-size: 32px;
+}
+
+.subtitulo {
+    font-size: 32px;
+    margin-top: -25px;
+    margin-bottom: 20px;
+}
+
+section {  
+    display: flex;  
+    flex-direction: column;  
+    padding: 50px 70px;
+    background: #FFF;
+    width: 400px;
+    
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    margin-bottom: 20px;
+}
+input {
+    border: 0.5px solid  #DBDBDB;
+    padding: 7px 11px;
+        
+}
+input:hover {
+    border: 0.6px solid #B5B5B5;
+}
+input:focus {
+    border: 0.6px solid #3273DC;
+}
+input:invalid {
+    border: 0.6px solid #FF0000;
+}
+
+label {
+    margin: 0 0 8px;
+    font-weight: bold;
+    
+}
+.checkbox{
+    vertical-align: bottom;
+    margin: 0 3px 1px;
+    padding: 1px;
+}
+.termino {
+    margin: 25px 0 35px;
+    font-size: 14px;
+}
+.termino label {
+    font-weight: normal;
+}
+.termino a {
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+    background-color: #00D1B2;
+    padding: 10px 20px;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+}
+button:hover{
+    background-color:#00C4A7;
+}
+button:active{
+    background-color: #00B89C;
+}
+
+.letrachica {
+    margin-top: -3px;
+    font-size: 14px;
+}
+.letrachica a {
+    text-decoration: none;
+}
+a{
+    color: #3273dc;
+}
+
+
